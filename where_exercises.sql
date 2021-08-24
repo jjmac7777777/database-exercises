@@ -18,3 +18,8 @@ SELECT * FROM employees.employees e WHERE e.last_name LIKE
 SELECT * FROM employees.employees e WHERE e.last_name LIKE
 ('%q%');
 
+#Part Two
+#Part Two
+#Update your query for 'Irena', 'Vidya', or 'Maya'
+#to use OR instead of IN — 709 rows.
+
