@@ -39,3 +39,9 @@ WHERE year(hire_date) BETWEEN 1990 AND 1999
 ORDER BY hire_date desc;
 
 
+SELECT *, DATEDIFF(CURDATE(), employees.employees.hire_date) total
+from employees
+where year (hire_date) between 1990 and 1999
+  and month(birth_date) = 12
+  and day(birth_date) = 25
+ORDER BY employees.employees.hire_date asc;
