@@ -1,5 +1,6 @@
 USE codeup_test_db;
 
+
 DROP IF EXISTS TABLE albums;
 
 CREATE TABLE albums (
@@ -14,5 +15,6 @@ CREATE TABLE albums (
 show tables;
 
 DESCRIBE albums;
+
 
 
