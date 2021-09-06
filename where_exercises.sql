@@ -8,6 +8,7 @@ FROM employees.employees e
 WHERE e.first_name IN
       ('Irena', 'Vidya', 'Maya');
 
+
 #Find all employees whose last name
 # starts with 'E' — 7,330 rows
 
