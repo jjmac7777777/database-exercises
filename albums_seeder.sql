@@ -48,6 +48,13 @@ VALUES                    ('Led Zeppelin', 'LZ4', '1971', 21.3,'Hard rock,heavy 
                           'Eagles', 'Their Greatest Hits (1971–1975)', '1976', 41.2, 'Country rock, soft rock, folk rock');
 
 
+USE codeup_test_db;
+
+TRUNCATE albums;
+
+DESCRIBE albums;
+
+
 
 
 
