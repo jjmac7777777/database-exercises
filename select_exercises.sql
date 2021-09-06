@@ -13,4 +13,3 @@ SELECT * FROM albums where sales = '< 20';
 SELECT * FROM albums where genre = 'Rock';
 
 SHOW tables;
-
